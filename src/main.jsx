@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
     <div style={{textAlign:"center"}}>
       <h1>enternal </h1>
       <h4>POWERING INDIA’S
-    CHANGING LIFESTYLES</h4>
+    CHANGING LIFESTYLESs</h4>
     </div>
     <div style={{display:"flex",justifyContent:"space-evenly"}}>
     {Apps("https://b.zmtcdn.com/data/o2_assets/d1eee2be61cf47e2332cb7c49475c0981739777714.png")}
