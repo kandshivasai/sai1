@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Apps from './assets/Apps'
-import Heading from './assets/card'
 
 // function react1(){
 //   return "hello wirld"
@@ -11,7 +10,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div style={{textAlign:"center"}}>
       <h1>enternal </h1>
-      <h4>POWERING INDIA’S
+      <h4>POWERING INDIA’S1
     CHANGING LIFESTYLESs</h4>
     </div>
     <div style={{display:"flex",justifyContent:"space-evenly"}}>
