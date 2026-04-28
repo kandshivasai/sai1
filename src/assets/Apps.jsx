@@ -1,3 +1,5 @@
+import Counter from "../component/Counter";
+
  export default function Apps(plate){
     return(
         <>
@@ -17,6 +19,7 @@
         maxime tenetur tempore</p><br>
         </br>
       <button type="button" style={{backgroundColor:"pink",borderRadius:"10px"}}>submit</button>
+      
     </div>
         </>
     )

@@ -1,6 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Apps from './assets/Apps'
+import Counter from './component/Counter'
+import Navbar from './navbar/navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // function react1(){
 //   return "hello wirld"
@@ -8,6 +11,7 @@ import Apps from './assets/Apps'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Navbar/>
     <div style={{textAlign:"center"}}>
       <h1>enternal </h1>
       <h4>POWERING INDIA’S1
@@ -20,6 +24,8 @@ createRoot(document.getElementById('root')).render(
     {Apps("https://b.zmtcdn.com/data/o2_assets/9207cd0fc68c4ac55cfd3bfa00c02a351739777699.png")}
     
 
-    </div>
+    </div><br>
+    </br><br /><br /><br /><br />
+    <Counter/>
 
   </StrictMode>,)
